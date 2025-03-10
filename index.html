@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Тренажер сопоставления месяца с временем года</h1>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>
+              <div class="seasons">
+                <img
+                  src="assets/images/winter.png"
+                  width="150px"
+                  alt="изображение лета"
+                />Зима
+              </div>
+            </th>
+            <th>
+              <div class="seasons">
+                <img
+                  src="assets/images/spring.png"
+                  width="150px"
+                  alt="изображение весны"
+                />Весна
+              </div>
+            </th>
+            <th>
+              <div class="seasons">
+                <img
+                  src="assets/images/summer.png"
+                  width="150px"
+                  alt="изображение лета"
+                />Лето
+              </div>
+            </th>
+            <th>
+              <div class="seasons">
+                <img
+                  src="assets/images/autumn.png"
+                  width="150px"
+                  alt="изображение осени"
+                />Осень
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="month-rows">
+        </tbody>
+      </table>
+    </div>
+    <div class="checkbox-container">
+      <label
+        ><input type="checkbox" id="complete-task" /> Завершить задание</label
+      >
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
